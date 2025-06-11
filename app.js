@@ -1,8 +1,8 @@
 btn1.addEventListener("click", () => {
-  let input = document.getElementById("text");
-  let task = document.getElementById("tasklist");
+  let text = document.getElementById("text");
+  let tasklist = document.getElementById("tasklist");
 
   let newInput = document.createElement("li");
-  newInput.innerHTML = input.value;
+  newInput.textContent = text.value;
   tasklist.appendChild(li);
 });
